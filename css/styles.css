@@ -5,13 +5,10 @@ body {
 
 .tropical {
     font-family: fantasy;
-}
-h1.tropical {
     color: #f7325e;
 }
-p.tropical {
-    color:#7dc410;
-}
+
+    
 
 .trops {
     display: inline;
@@ -20,13 +17,9 @@ p.tropical {
 
 .popular {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-h1.popular {
     color: purple;
 }
-p.popular {
-    color:fuchsia;
-}
+
 
 .pop {
     display: inline;
