@@ -1,11 +1,23 @@
 body {
     color: black;
-    background-color: powderblue;
+    background-color: #84C5BC;
+    display: grid;
+}
+h1{
+    text-align: center;
+    color: blanchedalmond;
 }
 
 .tropical {
     font-family: fantasy;
-    color: #f7325e;
+    color: blanchedalmond;
+    text-align: left;
+    border: #cf5261 double 4px;
+    background-color: #B56357;
+}
+.tropical h1{
+    color: black;
+    text-align: left;
 }
 
     
@@ -16,9 +28,21 @@ body {
 }
 
 .popular {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: purple;
+    font-family: fantasy;
+    color: blanchedalmond;
+    text-align: left;
+    border: #cf5261 double 4px;
+    background-color: #B56357;
 }
+.popular h1{
+    color: black;
+    text-align: left;
+}
+p {
+    font-size: medium;
+}
+
+
 
 
 .pop {
@@ -28,4 +52,26 @@ body {
 a:hover {
     background-color: gold;
     
+}
+.contact{
+    display: block;
+    height: 200px;
+    background-color: #19292f;
+    color: blanchedalmond;
+
+}
+
+.contact h1{
+    color: black;
+    text-align: left;
+    
+}
+.contacts{
+    
+    display: inline-block;
+}
+
+.contacts div{
+    display: inline-block;
+    padding-right: 200px;
 }
